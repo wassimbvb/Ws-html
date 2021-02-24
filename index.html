@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Go my code</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div>
+            <img
+              src="https://gomycodewebsite.blob.core.windows.net/website/img/black_Logo_342868e838_129748d4cd.svg"
+              alt="logo"
+            />
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <h1>Home</h1>
+        <p>
+          Nous formons la prochaine génération tech aux technologies les plus
+          récentes et aux métiers du futur pour les préparer au monde
+          professionnel et renforcer leur employabilité.
+        </p>
+        <img src="/res/gomycode.jpg" alt="Go my code" />
+      </section>
+      <section id="about">
+        <h1>About</h1>
+        <p>
+          Notre plateforme éducative est le fruit de la collaboration de notre
+          équipe pédagogique, nos développeurs, nos UX designers, de nos
+          créateurs de contenu et nos partenaires. Elle construit une expérience
+          d'apprentissage unique alliant le suivi personnalisé à l'apprentissage
+          et l’autonomie. Ses différentes fonctionnalités lui permettent
+          d'accueillir l’ensemble du parcours éducatif.
+        </p>
+        <!-- <video src="/res/Our Students ROCK - Aymen Derouiche.mp4" width="500px" height="500px">Your browser can't support this video</video> -->
+        <video poster="res/gomycode.jpg" controls width="600" height="600">
+          <source
+            src="/res/Our Students ROCK - Aymen Derouiche.mp4"
+            type="video/mp4"
+          />
+          <source
+            src="/res/Our Students ROCK - Aymen Derouiche.ogg"
+            type="video/ogg"
+          />
+        </video>
+        <iframe
+          width="731"
+          height="411"
+          src="https://www.youtube.com/embed/z2jgLckP8O8"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="contact">
+        <h1>Contact</h1>
+        <p>phone: +216 31 314 570</p>
+        <p>Address :GoMyCode Hackerspace, Immeuble NEO, 2ème étage, Rue du lac lochness, Les Berges du </p>
+        <p><ol>
+            Hackerspace :
+            <li>Sfax</li>
+            <li>Tunis</li>
+            <li>Sousse</li>
+            <li>Nabeul</li>
+            <li>Gabes</li>
+        </ol></p>
+        <form >
+            <div>
+                <label for="name">Name</label> 
+            <input type="text" name="name" placeholder="Enter your name" > 
+            </div>
+           <div>
+            <label for="email">Email</label>
+            <input type="email" name="email">
+           </div>
+            <label for="comment">Comment</label>
+            <!-- <textarea name="comment" id="" cols="30" rows="5"></textarea> -->
+            <input type="text-area" name="comment"> <br>
+            <button>Submit</button>
+            
+        </form>
+      </section>
+    </main>
+    <footer>
+        &copy;CopyRight go my code 2021
+    </footer>
+  </body>
+</html>
